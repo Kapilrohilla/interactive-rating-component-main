@@ -1,1 +1,2 @@
-It's an incomplete project
+**It's an incomplete project.** <br>
+**JavaScript** section is incomplete
