@@ -62,7 +62,10 @@ html {
   background-color: hsl(215deg, 11%, 35%);
   color: hsl(0deg, 0%, 100%);
 }
-.container .first ul li button:hover {
+.container .first ul li .selected {
+  background-color: hsl(25deg, 97%, 53%);
+}
+.container .first ul li .hover:hover {
   background-color: hsl(217deg, 12%, 63%);
 }
 .container .first button[type=submit] {

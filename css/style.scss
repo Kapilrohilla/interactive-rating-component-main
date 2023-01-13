@@ -12,6 +12,7 @@ $mediumGrey: hsl(215, 11%, 35%);
 $darkBlue: hsl(213, 19%, 18%);
 $veryDarkBlue: hsl(216, 12%, 8%);
 
+
 html{
     font-size: 15px;
     background: $veryDarkBlue;
@@ -63,7 +64,10 @@ html{
                     background-color: $mediumGrey;
                     color: $white;
                 }
-                button:hover{
+                .selected{
+                    background-color: $orange;
+                }
+                .hover:hover{
                     background-color: $wightGrey;
                 }
             }
