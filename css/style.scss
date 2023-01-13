@@ -3,16 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
-
-$orange: hsl(25, 97%, 53%);
-$white: hsl(0, 0%, 100%);
-$wightGrey: hsl(217, 12%, 63%);
-$mediumGrey: hsl(215, 11%, 35%);
-$darkBlue: hsl(213, 19%, 18%);
-$veryDarkBlue: hsl(216, 12%, 8%);
-
-
+@import "_configNMobile.scss";
 html{
     font-size: 15px;
     background: $veryDarkBlue;
@@ -126,11 +117,3 @@ html{
     bottom: 5px; 
 }
 .attribution a { color: $orange; text-decoration: none;}
-@media screen and (max-width: 400px){
-    .container{
-        width: 90%;
-        .first{
-            width: auto;
-        }
-    }
-}

@@ -1,4 +1,3 @@
-const docResult = document.getElementsByTagName('span');
 let btn0 = document.getElementsByTagName('li')[0].children[0];
 let btn1 = document.getElementsByTagName('li')[1].children[0];
 let btn2 = document.getElementsByTagName('li')[2].children[0];

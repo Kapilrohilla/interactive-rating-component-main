@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 400px) {
+  html .container {
+    width: 90%;
+  }
+  html .container .first {
+    width: auto;
+  }
+}
 html {
   font-size: 15px;
   background: hsl(216deg, 12%, 8%);
@@ -122,13 +130,4 @@ html {
 .attribution a {
   color: hsl(25deg, 97%, 53%);
   text-decoration: none;
-}
-
-@media screen and (max-width: 400px) {
-  .container {
-    width: 90%;
-  }
-  .container .first {
-    width: auto;
-  }
 }/*# sourceMappingURL=style.css.map */
