@@ -30,7 +30,7 @@ btn1.addEventListener('click',()=>{
     console.log('selected',selected);
 });
 btn2.addEventListener('click',()=>{
-    selected = Number.parseInt(btn1.innerHTML);
+    selected = Number.parseInt(btn2.innerHTML);
     btn1.classList.add('selected');
     btn1.classList.remove('hover');
     btn0.classList.remove('selected');
